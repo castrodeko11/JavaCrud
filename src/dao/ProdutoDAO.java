@@ -22,7 +22,7 @@ public class ProdutoDAO {
     }
 
     public void inserir(Produto produto) {
-        String sql = "INSERT INTO produto (descricao, preco_produto) VALUES (?,?)";
+        String sql = "INSERT INTO produto (descricao_produto, preco_produto) VALUES (?,?)";
         try {
             stmt = conn.prepareStatement(sql);
             stmt.setString(1, produto.getDescricao_produto());
@@ -37,7 +37,7 @@ public class ProdutoDAO {
     }
 
         public void alterar(Produto produto){
-            String sql = "UPDATE produto set descricacao_produto = ?, preco_produto = ? " +
+            String sql = "UPDATE produto set descricao_produto = ?, preco_produto = ? " +
                     "WHERE codigo_produto = ?";
             try {
 
@@ -75,7 +75,7 @@ public class ProdutoDAO {
             while(rs.next()){
                 Produto produto = new Produto();
                 produto.setCodigo_produto(rs.getInt("codigo_produto"));
-                produto.setDescricao_produto(rs.getString("descricacao_produto"));
+                produto.setDescricao_produto(rs.getString("descricao_produto"));
                 produto.setPreco_produto(rs.getInt("preco_produto"));
                 lista.add(produto);
             }
@@ -88,7 +88,7 @@ public class ProdutoDAO {
         }
 
     public ArrayList<Produto> listarTodosDescricao(String valor){
-        String sql = "SELECT * FROM produto where descricao LIKE '%"+ valor+"%'";
+        String sql = "SELECT * FROM produto where descricao_produto LIKE '%"+ valor+"%'";
         try{
             st = conn.createStatement();
             rs = st.executeQuery(sql);
@@ -96,8 +96,8 @@ public class ProdutoDAO {
             while(rs.next()){
                 Produto produto = new Produto();
                 produto.setCodigo_produto(rs.getInt("codigo_produto"));
-                produto.setDescricao_produto(rs.getString("descricacao_produto"));
-                produto.setPreco_produto(rs.getInt("preco_produto"));
+                produto.setDescricao_produto(rs.getString("descricao_produto"));
+                produto.setPreco_produto(rs.getDouble("preco_produto"));
                 lista.add(produto);
             }
 

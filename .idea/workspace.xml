@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dff0e94-5b65-4f28-8e71-e62ca366ded4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/dao/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mercado/dao/ConnectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mercado/dao/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/main/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mercado/main/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/modal/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/table/ProdutoTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mercado/table/ProdutoTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mercado/view/ProdutoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mercado/view/ProdutoView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ProdutoView.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ProdutoView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ProdutoView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ProdutoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ProdutoView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,46 +17,18 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Mercado" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/ProdutoView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1960#2134#0" expanded="true" />
-                <element signature="e#2133#2134#0" expanded="true" />
-                <element signature="e#3343#3656#0" expanded="true" />
-                <element signature="e#3655#3656#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Produto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,13 +39,14 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/ProdutoDAO.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/ProdutoView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="90" column="67" selection-start-line="90" selection-start-column="67" selection-end-line="90" selection-end-column="67" />
+            <state relative-caret-position="421">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#574#604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +64,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>descricacao_produto</find>
+      <find>exc</find>
+      <find>salvar</find>
+      <find>excluir</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/modal/Produto.java" />
         <option value="$PROJECT_DIR$/src/table/ProdutoTableModel.java" />
         <option value="$PROJECT_DIR$/src/dao/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/Run.java" />
-        <option value="$PROJECT_DIR$/src/view/ProdutoView.form" />
         <option value="$PROJECT_DIR$/src/model/Produto.java" />
         <option value="$PROJECT_DIR$/src/dao/ProdutoDAO.java" />
+        <option value="$PROJECT_DIR$/src/view/ProdutoView.form" />
+        <option value="$PROJECT_DIR$/src/main/Run.java" />
         <option value="$PROJECT_DIR$/src/view/ProdutoView.java" />
       </list>
     </option>
@@ -132,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="142" />
     <option name="y" value="210" />
     <option name="width" value="1200" />
@@ -170,13 +137,6 @@
               <item name="JavaCrud" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mercado" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCrud" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="ProdutoView" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -245,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566854726536</updated>
-      <workItem from="1566854731105" duration="18236000" />
+      <workItem from="1566854731105" duration="19748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18236000" />
+    <option name="totallyTimeSpent" value="19748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -260,10 +220,10 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33933163" />
+      <window_info id="Favorites" sideWeight="0.50086653" side_tool="true" weight="0.33933163" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.33933163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32871974" />
+      <window_info anchor="bottom" id="Messages" weight="0.32839838" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -293,12 +253,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/view/ProdutoView.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dao/ProdutoDAO.java</url>
           <line>24</line>
@@ -359,9 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/ProdutoView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/ProdutoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -375,23 +326,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ProdutoView.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ProdutoView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        <state relative-caret-position="421">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1960#2134#0" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
-            <element signature="e#3343#3656#0" expanded="true" />
-            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#574#604#0" expanded="true" />
           </folding>
         </state>
       </provider>
